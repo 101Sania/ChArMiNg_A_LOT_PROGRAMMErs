@@ -1,5 +1,5 @@
 # solving different types of problem in  c++
-//problem codeforces 1772A
+//problem toph.co problem 
 
 #include <iostream>
 
@@ -132,6 +132,34 @@ int main()
             cout<<"NO"<<endl;
 
     }
+}
+
+//1772A codeforces (A+B?)
+
+#include <bits\stdc++.h>
+
+using namespace std;
+
+int main()
+
+{
+
+  int t;
+
+  cin>>t;
+
+  while (t--)
+
+  {
+
+    string s;
+
+    cin >> s;
+
+    cout << (s[0] + s[2] - 96) << endl;
+
+  }
+
 }
     
 
